@@ -1,7 +1,7 @@
 <h2 align="center">🤖Codificador e decodificador de textos🤖 </h2>
 
 <h4 align="justify">
-Desafio de desenvolver um [decodificador de texto](https://www.alura.com.br/challenges/challenge-one-logica/sprint01-construa-decodificador-texto-com-javascript) proposto pela Oracle Next Education + Alura, utilizando o aprendizado em lógica de programação do primeiro módulo com HTML, CSS e Javascript sem o uso de frameworks, conforme wireframe desenvolvido no figma (<a href="https://www.figma.com/design/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=0-1&t=55rmbGC5mz17kRYS-0">Figma</a>).
+Desafio de desenvolver um decodificador de texto proposto pela <a href="https://www.alura.com.br/challenges/challenge-one-logica/sprint01-construa-decodificador-texto-com-javascript">Oracle Next Education + Alura</a>, utilizando o aprendizado em lógica de programação do primeiro módulo com HTML, CSS e Javascript sem o uso de frameworks, conforme wireframe desenvolvido no figma (<a href="https://www.figma.com/design/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=0-1&t=55rmbGC5mz17kRYS-0">Figma</a>).
 <h4/>
 
 <h3 align="center"> Sumário  </h3>
@@ -22,7 +22,7 @@ Desafio de desenvolver um [decodificador de texto](https://www.alura.com.br/chal
 - Responsividade para mobile.
 
 ## 🔗Link Surge
----
+Não aplicável
 
 ## 💻Como rodar o projeto localmente
 Siga o passo-a-passo abaixo:
