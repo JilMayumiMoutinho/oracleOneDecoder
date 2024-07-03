@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+    
+:root{
+    --main-bg-color:#000000;
+    --cor-primaria:#FFFFFF;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #C74634;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--cor-secundaria);
+    box-sizing: border-box;
+    width: 100%;
+}
+
+header{
+    padding: 2% 0% 0% 7%;
+}
+
+.header__menu{
+    display: flex;
+    font-family: var(--font-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    img{
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
+.pres{
+    padding: 7%;
+    width: 80%;
+    display: flex;
+    gap: 2rem;
+}
+
+.pres__conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.pres__titulo{
+    font-size: 2rem;
+    font-family: var(--fonte-primaria);
+}
+
+.pres__titulo2{
+    font-size: 1.7rem;
+    font-family: var(--fonte-primaria);    
+}
+
+.pres__links{
+    flex-direction: column;
+    font-size: 0.7rem;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+}
+
+.pres__texto_input{
+    font-size: 1rem;
+    font-family: var(--font-secundaria);
+    border: 1px, solid, var(--main-bg-color);
+    padding: 4px;
+    background-color: var(--main-bg-color);
+    color: var(--cor-primaria);
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.pres__texto_input:hover{
+    border: 1px, orangered, solid;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.pres__conteudo2{
+    border: 1px, solid,var(--cor-primaria);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 40%;
+    img{
+        width: 100%;
+        height: 50vh;
+    }
+}
+
+.pres__texto{
+    font-size: 1rem;
+    font-family: var(--font-secundaria);
+    border: 1px, solid, var(--main-bg-color);
+    padding: 4px;
+    background-color: var(--main-bg-color);
+    color: var(--cor-primaria);
+    width: 100%;
+}
+
+h1 {
+    color: var(--cor-secundaria);
+}
+
+.h1orange{
+    color: var(--cor-terciaria);
+}
+
+.pres__prompt{
+    height: 600%;
+}
+
+.pres__links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.pres__links_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.pres__button_links {
+    background-color: var(--cor-terciaria);
+    border: 2px solid var(--cor-terciaria);
+    width: 10rem;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--font-secundaria);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    img{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+}
+
+.pres__button_links:hover{
+    background-color: #272727;
+    width: 10.1rem;
+    box-shadow:1px 5px 5px var(--cor-terciaria);
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+.pres__containerNoMsn{
+    font-family: var(--font-secundaria);
+}
+
+footer{
+    padding: 24px;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    font-family: var(--font-secundaria);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+/* @media (max-width:1200px){
+    header{
+        padding: 10%;
+    }
+
+    .header__menu{
+        display: flex;
+        justify-content: center;;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .pres__conteudo{
+        width: auto;
+        Poderia ser 100%
+    }
+}
+
+
+
+Podemos também definir intervalos para os tamanhos de telas com um único media query, atribuímos o valor mínimo e depois o valor máximo separando ele pelo atributo and, veja: @media (min-width: 480px ) and (max-width: 800px), nesse caso os estilos serão aplicados em telas de no mínimo “480px” e de no máximo “800px”.
+ */
