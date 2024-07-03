@@ -12,13 +12,13 @@
         <div class="header__menu"></nav>
             <img src="/assets/img/logo.jpeg" alt="icone do site decodificador">
         <div>
-            <h1 class="pres__titulo"><span class="h1orange">Coder and Decoder chat</span><h1>
-            <h1 class="pres__titulo2">Bora <span class="h1orange">papear</span>!? <h1>
+            <h1><span class="h1emphasis">Coder and Decoder chat</span><h1>
+            <h1 class="header__subtitulo">Bora <span class="h1emphasis">papear</span>!? <h1>
         </div>
     </header>
     <main class="pres">
         <section class="pres__conteudo">
-            <div class="pres__prompt">
+            <div>
                 <input type="text" id="inputField" value="Digite seu texto" class="pres__texto_input" onclick="limparCampo()"/>
             </div> 
             <div class="pres__links">
@@ -48,10 +48,10 @@
                 onclick="copyResult()"
                 id="resultButton"
                 disabled>
-                    <img src="https://cdn.icon-icons.com/icons2/548/PNG/512/1455554738_line-65_icon-icons.com_53379.png">
+                    <img id="img_button" src="https://cdn.icon-icons.com/icons2/548/PNG/512/1455554738_line-65_icon-icons.com_53379.png">
                     Copiar
             </button>
-            <div id="containerNoMsn">
+            <div>
                 <img src="/assets/img/notFound.jpeg" alt="Homem com cara de procurando e desenhos lúdicos de código misturados com atenção">
                 <p class="pres__texto">
                     <strong>Nenhuma mensagem encontrada</strong>
@@ -68,51 +68,3 @@
     <script src="app.js" defer></script>
 </body>
 </html>
-
-
-<!-- <body>
-    <header class="header">
-        <a href="/">
-            <img src="assets/alura_logo.svg" alt="Imagem do logo da Alura">
-        </a>
-    </header>
-    <main>
-        <div class="container">
-            <section class="textarea-section">
-                <textarea id="textarea" class="textarea" autofocus placeholder="Digite seu texto"></textarea>
-
-                <div class="info-wrapper">
-                    <i class="info-icon">
-                        <img src="assets/info_icon.svg" alt="Icone de informação" />
-                    </i>
-                    <span>
-                        Apenas letras minúsculas e sem acento.
-                    </span>
-                </div>
-                <div class="actions">
-                    <button onclick="encriptar()" class="button primary">Criptografar</button>
-
-                    <button onclick="desencriptar()" class="button secondary">Descriptografar</button>
-                </div>
-            </section>
-
-            <section class="result-section">
-                <div id="result-container" class="result empty">
-
-                    <div class="empty-content">
-                        <img src="assets/404_img.svg" />
-
-                        <h3>Nenhuma mensagem encontrada</h3>
-
-                        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
-                    </div>
-                    <div class="result-content" id="result-content"></div>
-
-                    <button class="button secondary copy" onclick="addToClipboard()">Copiar</button>
-                </div>
-            </section>
-        </div>
-    </main>
-
-    <script src="index.js"></script>
-</body> -->

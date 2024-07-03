@@ -15,9 +15,11 @@ Desafio de desenvolver um [decodificador de texto](https://www.alura.com.br/chal
 
 ## ✔O que funciona
 - Inserção de texto em input que fica vermelho ao colocar o mouse em cima.
+- Aceita apenas letras minúsculas e sem acentos.
 - Imagem de ausência de texto quando não há nada digitado.
 - Imagem de ausência de texto some quando pedido para codificar ou decodificar alguns conteúdo (existente, não apenas ou clicar nos botões). 
 - Botão de copiar o texto resultado.
+- Responsividade para mobile.
 
 ## 🔗Link Surge
 ---
@@ -49,3 +51,5 @@ Por padrão a aplicação rodará localmente na porta 3000.
 ## 🖥📱Imagens
  Página de login para tela desk<br />
 ![Captura de tela codificador](image.png)
+![Captura de tela em mobile](image-1.png)
+![Captura de tela em mobile codificado](image-2.png)
